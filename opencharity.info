@@ -1,7 +1,7 @@
 name        = Open Charity
 description = A custom responsive Theme for Open charity, an organisation that hosts events in London about open source software and solution for charities.
 core        = 7.x
-screenshot = screenshot.jpg
+screenshot = img/screenshot.png
 
 ; ========================================
 ; Stylesheets
