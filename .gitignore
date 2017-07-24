@@ -29,15 +29,6 @@ Thumbs.db
 
 # Folders to ignore
 node_modules
-css/random.css
 
-# Files to ignore
-tables.html
-forms.html
-charts.html
-blank-page.html
-indexs.html
-blank-page.html
-bootstrap-elements.html
-bootstrap-grid.html
-index2.html
+
+sftp-config.json
