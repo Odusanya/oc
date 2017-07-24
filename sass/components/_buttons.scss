@@ -1,0 +1,47 @@
+button,
+.button {
+    background-color: white;
+    border: none;
+    border-radius: $button-radius;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: $regular-font-size;
+    font-weight: 500;
+    min-height: $button-default-height;
+    line-height: $button-default-height;
+    outline: none;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    position: relative;
+    text-decoration: none;
+    transition: all 350ms ease;
+    user-select: none;
+
+    //Color
+    &--blue {
+        @extend .button;
+        background-color: $main-blue-color;
+        border: 1px solid $border-color-blue;
+        color: $white;
+        &:hover {
+           background-color: $border-color-blue; 
+        }
+    }
+    &--transparent {
+        @extend .button;
+        background-color: transparent;
+        color: $main-blue-color;
+        border: 1px solid $main-blue-color;
+        &:hover {
+            background-color: $main-blue-color;
+            color: $white;
+        }
+    }
+
+    //Styling
+     &--full {
+        text-align: center;
+        width: 80%;
+    }
+}

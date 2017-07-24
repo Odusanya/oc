@@ -1,14 +1,18 @@
 //Fonts
-$font: 'Museo Sans Rounded', sans-serif;
+$font: 'Museo Sans Rounded 300', sans-serif;
 
 //Colors
-$purple: #5D5E73;
-$dark-purple: #39394A;
-$blue: #D8D8ED;
-$grey: #f1f1f1;
-$dark-grey: #444;
-$red: #FC0D1B;
+$main-blue-color: #5ac0cf;
+$border-color-blue: #26bdb9;
+$light-grey: #f1f2f5;
+$white: #fff;
+
 
 // Dimensions
-$headerHeight: 60px;
-$sidebarWidth: 200px;
+$button-default-height: 40px;
+$button-radius: 2px;
+$regular-font-size: 1.6rem;
+$header-height: 80px;
+$logo-height: 30px;
+// $headerHeight: 60px;
+// $sidebarWidth: 200px;

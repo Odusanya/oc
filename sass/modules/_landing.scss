@@ -1,0 +1,50 @@
+
+.hero-section {
+    color: $white;
+    text-align: center;
+    padding: 60px 0px;
+    // position: relative;
+    &--landing {
+        background: #232326 url('../img/landing.png');
+        background-repeat: none;
+        background-size: 100%; 
+    }
+
+    &__content {
+        width: 70%;
+        margin: 0 auto;
+
+        .primary-title {
+            font-size: 3.8rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.get-involved {
+    padding: 60px 0;
+    background-color: $light-grey;
+    &__label {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.4rem;
+    }
+}
+
+.social-group {
+    padding: 30px;
+    text-align: center;
+}
+
+.future-events {
+    padding: 20px 0;
+    &__left {
+        float: left;
+    }
+    &__right {
+        float: right;
+    }
+}
