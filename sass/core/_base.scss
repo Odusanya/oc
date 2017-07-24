@@ -1,0 +1,35 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+    // overflow: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    @include screen(small) {
+        font-size: 58%;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: $font;
+    -webkit-font-smoothing: antialiased;
+}
+
+// #container {
+//     height: 100%;
+//     width: 100%;
+//     overflow: scroll;
+// }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input, button{
+    font-size: inherit;
+    font-family: inherit;
+}
